@@ -12,11 +12,11 @@ importers:
         specifier: 0.0.7
         version: 0.0.7
       '@go-task/cli':
-        specifier: 3.24.0
-        version: 3.24.0
+        specifier: 3.40.0
+        version: 3.40.0
       '@playwright/test':
-        specifier: 1.44.1
-        version: 1.44.1
+        specifier: ^1.49.0
+        version: 1.49.0
       '@tsconfig/node18-strictest-esm':
         specifier: 1.0.1
         version: 1.0.1
@@ -67,7 +67,7 @@ importers:
         version: 1.14.0(typescript@5.0.4)
       vitest:
         specifier: 0.30.1
-        version: 0.30.1(@vitest/ui@0.30.1)(playwright@1.44.1)
+        version: 0.30.1(@vitest/ui@0.30.1)(playwright@1.49.0)
 
 packages:
 
@@ -365,11 +365,11 @@ packages:
   '@gkzhb/lua-types-nvim@0.0.7':
     resolution: {integrity: sha512-+XBpAXjBYxicd8xTNK+R+b0SX4+VkJw/qJ36ZMMDXGtIE7DpRlStxrGXVV7CTVxPIreDfzG+q5d0Sz4Jr4U3/Q==}
 
-  '@go-task/cli@3.24.0':
-    resolution: {integrity: sha512-FhShR3npNR69t7+AjTI7v9QLvQAj+VBJlS4AoF/O+xOFOvb3jYWVQzPy2+ZyH8ktUaZhMpQtAmx0B7qDjGCp1A==}
+  '@go-task/cli@3.40.0':
+    resolution: {integrity: sha512-2BQzmo6E4RqRgZ/g8KO5K5zFiCF9rdXUVIiMFw0nI+gNkgbXUy1/BMHbqE91EHZUQOAuq1HeHKb4x0kuVaY+rQ==}
 
-  '@go-task/go-npm@0.1.17':
-    resolution: {integrity: sha512-j+xydQWrAxsqLYjweok1fWzDmBAA1g/gmFbPyG8kRI/d/+rzXGGLlro8zdS6mJ3Is+8BrIy2ZBmQkoONhowh7A==}
+  '@go-task/go-npm@0.2.0':
+    resolution: {integrity: sha512-vQbdtBvesHm8EUFHX8QKg4rbBodmu9VsAXH1ozpbiN5jdTMOYHTCMM31EurAYmY+rNNtxJQ4JGy6t383RPlqbw==}
     hasBin: true
 
   '@humanwhocodes/config-array@0.11.8':
@@ -398,9 +398,9 @@ packages:
     resolution: {integrity: sha512-oGB+UxlgWcgQkgwo8GcEGwemoTFt3FIO9ababBmaGwXIoBKZ+GTy0pP185beGg7Llih/NSHSV2XAs1lnznocSg==}
     engines: {node: '>= 8'}
 
-  '@playwright/test@1.44.1':
-    resolution: {integrity: sha512-1hZ4TNvD5z9VuhNJ/walIjvMVvYkZKf71axoF/uiAqpntQJXpG64dlXhoDXE3OczPuTuvjf/M5KWFg5VAVUS3Q==}
-    engines: {node: '>=16'}
+  '@playwright/test@1.49.0':
+    resolution: {integrity: sha512-DMulbwQURa8rNIQrf94+jPJQ4FmOVdpE5ZppRNvWVjvhC+6sOeo28r8MgIpQRYouXRtt/FCCXU7zn20jnHR4Qw==}
+    engines: {node: '>=18'}
     hasBin: true
 
   '@polka/url@1.0.0-next.21':
@@ -985,14 +985,14 @@ packages:
   pkg-types@1.0.2:
     resolution: {integrity: sha512-hM58GKXOcj8WTqUXnsQyJYXdeAPbythQgEF3nTcEo+nkD49chjQ9IKm/QJy9xf6JakXptz86h7ecP2024rrLaQ==}
 
-  playwright-core@1.44.1:
-    resolution: {integrity: sha512-wh0JWtYTrhv1+OSsLPgFzGzt67Y7BE/ZS3jEqgGBlp2ppp1ZDj8c+9IARNW4dwf1poq5MgHreEM2KV/GuR4cFA==}
-    engines: {node: '>=16'}
+  playwright-core@1.49.0:
+    resolution: {integrity: sha512-R+3KKTQF3npy5GTiKH/T+kdhoJfJojjHESR1YEWhYuEKRVfVaxH3+4+GvXE5xyCngCxhxnykk0Vlah9v8fs3jA==}
+    engines: {node: '>=18'}
     hasBin: true
 
-  playwright@1.44.1:
-    resolution: {integrity: sha512-qr/0UJ5CFAtloI3avF95Y0L1xQo6r3LQArLIg/z/PoGJ6xa+EwzrwO5lpNr/09STxdHuUoP2mvuELJS+hLdtgg==}
-    engines: {node: '>=16'}
+  playwright@1.49.0:
+    resolution: {integrity: sha512-eKpmys0UFDnfNb3vfsf8Vx2LEOtflgRebl0Im2eQQnYMA4Aqd+Zw8bEOB+7ZKvN76901mRnqdsiOGKxzVTbi7A==}
+    engines: {node: '>=18'}
     hasBin: true
 
   postcss@8.4.22:
@@ -1460,11 +1460,11 @@ snapshots:
 
   '@gkzhb/lua-types-nvim@0.0.7': {}
 
-  '@go-task/cli@3.24.0':
+  '@go-task/cli@3.40.0':
     dependencies:
-      '@go-task/go-npm': 0.1.17
+      '@go-task/go-npm': 0.2.0
 
-  '@go-task/go-npm@0.1.17': {}
+  '@go-task/go-npm@0.2.0': {}
 
   '@humanwhocodes/config-array@0.11.8':
     dependencies:
@@ -1492,9 +1492,9 @@ snapshots:
       '@nodelib/fs.scandir': 2.1.5
       fastq: 1.15.0
 
-  '@playwright/test@1.44.1':
+  '@playwright/test@1.49.0':
     dependencies:
-      playwright: 1.44.1
+      playwright: 1.49.0
 
   '@polka/url@1.0.0-next.21': {}
 
@@ -2159,11 +2159,11 @@ snapshots:
       mlly: 1.2.0
       pathe: 1.1.0
 
-  playwright-core@1.44.1: {}
+  playwright-core@1.49.0: {}
 
-  playwright@1.44.1:
+  playwright@1.49.0:
     dependencies:
-      playwright-core: 1.44.1
+      playwright-core: 1.49.0
     optionalDependencies:
       fsevents: 2.3.2
 
@@ -2359,7 +2359,7 @@ snapshots:
       '@types/node': 18.15.11
       fsevents: 2.3.2
 
-  vitest@0.30.1(@vitest/ui@0.30.1)(playwright@1.44.1):
+  vitest@0.30.1(@vitest/ui@0.30.1)(playwright@1.49.0):
     dependencies:
       '@types/chai': 4.3.4
       '@types/chai-subset': 1.3.3
@@ -2389,7 +2389,7 @@ snapshots:
       why-is-node-running: 2.2.2
     optionalDependencies:
       '@vitest/ui': 0.30.1
-      playwright: 1.44.1
+      playwright: 1.49.0
     transitivePeerDependencies:
       - less
       - sass

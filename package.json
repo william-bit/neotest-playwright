@@ -17,8 +17,8 @@
 	"license": "ISC",
 	"devDependencies": {
 		"@gkzhb/lua-types-nvim": "0.0.7",
-		"@go-task/cli": "3.24.0",
-		"@playwright/test": "1.44.1",
+		"@go-task/cli": "3.40.0",
+		"@playwright/test": "^1.49.0",
 		"@tsconfig/node18-strictest-esm": "1.0.1",
 		"@types/eslint": "8.37.0",
 		"@types/node": "18.15.11",

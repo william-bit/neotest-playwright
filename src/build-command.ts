@@ -42,7 +42,16 @@ export const buildCommand = (options: CommandOptions, extraArgs: string[]) => {
 		}
 	}
 	command.push(...extraArgs);
-	if (o.testFilter !== undefined) command.push(o.testFilter);
+	if (o.testFilter !== undefined) {
+		const separator = o.testFilter.includes('/') ? '/' : '\\';
+		const parts = o.testFilter.split(separator);
+		const fileWithNumber = parts.pop();
+		if (fileWithNumber) {
+			command.push(fileWithNumber);
+		} else {
+			command.push(o.testFilter);
+		}
+	}
 
 	logger('debug', 'command', command);
 
